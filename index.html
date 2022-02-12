@@ -14,30 +14,39 @@
             <img src="https://www.mnfansubs.net/static/webs/mnfansubs/assets/logo-white.png" alt="logo">
         </div>
         <div class="menu">
-            <ul>
-                <li>
-                    <input type="checkbox"id="checkbox">
-                    <label for="checkbox"><i class="fas fa-search"></i></label>
-                    <div id="check">
-                        <form action="">
-                            <input type="search"name="haih" class="uk-input search-bar-input" placeholder="Хайлт...">
-                            <button class="uk-button search-bar-button">
-                                <i class="fa fa-search"></i>
-                            </button>
-                        </form>
-                    </div>
-                </li>
-                <li>
-                    <input type="checkbox"id="checkbox">
-                    <label for="checkbox"><i class="fas fa-film"></i></label>
-                    <div class="check2">hi</div>
-                </li>
-                <li>
-                    <input type="checkbox"id="checkbox">
-                    <label for="checkbox"><i class="fas fa-bars"></i></label>
-                    <div class="check3">hi</div>
-                </li>
-            </ul>
+            <div class="dropdown">
+                <input type="checkbox"id="checkbox">
+                <label for="checkbox"><i class="fas fa-search"></i></label>
+                <div id="check">
+                    <form action="/search" style="background-color: white; border-radius: 5px;">
+                        <input type="search"name="haih" class="uk-input search-bar-input" placeholder="Хайлт..." >
+                        <i class="fas fa-search" style="color: black; right: 0;"></i>
+                    </form>   
+                </div>
+            </div>
+            <div class="dropdown">
+                <input type="checkbox"id="checkboxb">
+                <label for="checkboxb"><i class="fas fa-film"></i></label>
+                <div class="dropdown-content" id="checkb">
+                    <a href="#">Бүх төслүүд</a>
+                    <a href="#">Бүх гаралтууд</a>
+                    <a href="#">Орчуулж байгаа</a>
+                    <a href="#">Орчуулж дуусгасан</a>
+                    <a href="#">Анимэ кино</a>
+                    <a href="#">Цуврал кино</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <input type="checkbox"id="checkboxc">
+                <label for="checkboxc"><i class="fas fa-bars"></i></label>
+                <div class="dropdown-content" id="checkc">
+                    <a href="#" class="linka">Нэвтрэх</a>
+                    <a href="#" class="linkb">Хандивын нөхцөл</a>
+                    <a href="#" class="linkc">Холбоо барих</a>
+                    <a href="#">Анимэ хуваарь</a>
+                    <a href="#">Үзсэн гаргалт</a>
+                </div>
+            </div>
         </div>
     </nav>
     <div class="main">
@@ -120,6 +129,8 @@
             <div class="parent4">
                 <div class="child13">
                     <img src="./img/_m (6).jpg" alt="">
+                    <div class="har har1"></div>
+                    <div class="names names1">Там</div>
                 </div>
                 <div class="child14">
                     <img src="./img/Rainbow poster_m.jpg" alt="">
@@ -358,9 +369,9 @@
     </div>
     <div class="footer">
         <div class="menu2">
-            <div class="item"><i class="fab fa-facebook-f"></i></div>
-            <div class="item2"><i class="fab fa-youtube"></i></div>
-            <div class="item3"><i class="fab fa-instagram"></i></div>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-instagram"></i>
         </div>
     </div>
     <div class="content">MNFansubs © 2007-2020</div>
